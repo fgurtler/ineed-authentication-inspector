@@ -1,0 +1,31 @@
+{
+	"name": "iNeed Authentication Inspector",
+	"version": "1.0.1",	
+	"description": "Network traffic inspector utility for eRMS developers",
+	"icons": {
+			"16": "img/icon_16x16.png",
+			"32": "img/icon_32x32.png",
+			"64": "img/icon_64x64.png",
+			"128": "img/icon_128x128.png"
+	},	
+	
+	"browser_action": {
+		"default_icon": { 
+			"16": "img/icon_16x16.png",
+			"32": "img/icon_32x32.png"
+		},
+		"default_title": "iNeed Auth",
+		"default_popup": "popup.html"
+	},
+
+	"background": { "scripts": ["background.js"]},
+	
+	"permissions": [
+		"\u003Call_urls\u003E",
+		"webRequest",
+		"clipboardWrite"
+	],
+	
+	"minimum_chrome_version": "18",
+	"manifest_version": 2	
+}

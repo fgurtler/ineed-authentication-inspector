@@ -1,0 +1,24 @@
+html 
+{
+	height: 65px; /* not sure why this needs to be set on both html & body for chrome to not mess it up */
+}
+body {
+	background-color: #ededed;
+	min-width: 110px;		
+	height: 65px;		
+}
+
+a {
+	color: #000;
+	display: block;
+	margin: 0.75em 0em;
+}
+
+#data {
+	margin: 0.75em;
+}
+
+#environment {
+	font-weight: bold;
+}
+
